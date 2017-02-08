@@ -1,0 +1,26 @@
+<body>
+    <div ui-view></div>
+    <h1 id="title">What does the Donald have to say about this?</h1>
+    <div id="image">
+        <image src="/images/giphy.gif" />
+        <div class="input-group container">
+            <input id="searchinput" name="searchinput" type="search" placeholder="What Topic do you want to search?" ng-model="vm.tweetTopic" class="form-control input-md">
+            <span class="input-group-addon" ng-click="vm.getTweet(vm.tweetTopic)">Search Tweets</span>
+        </div>
+        <div class="container">
+            <div class="row form-group">
+                <div class="col-xs-12 col-md-4" ng-repeat="tweets in vm.getTweets" id="boxes">
+                    <div class="panel panel-default">
+                        <div class="panel panel-heading ">
+                            <h3 class="panel-title"><image id="twitterIcon" src="/images/twitter.png" />{{tweets._embedded.autor[0].name}}</h3>
+                        </div>
+                        <div id="panel-body" class="panel-body">
+                            <p>{{tweets.value}}</p>
+                        </div>
+                        <div class="panel-footer">Created on: {{tweets.appeared_at|date:'MM/dd/yyyy'}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a ui-sref="civic({zipInfo})">Frustrated? Click here to find who you can talk to!</a>
+</body>

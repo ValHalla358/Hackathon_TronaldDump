@@ -1,29 +1,40 @@
 {
-  "name": "template",
-  "main": "app.js",
-  "authors": [
-    "ValHalla358 <vcs358@gmail.com>"
-  ],
-  "description": "",
-  "license": "MIT",
-  "homepage": "",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "angular": "^1.6.1",
-    "bootstrap": "^3.3.7",
-    "angular-toastr": "^2.1.1"
-  },
-  "overrides": {
-    "bootstrap": {
-      "main": [
-        "dist/css/bootstrap.css"
-      ]
+    "name": "tronaldDump",
+    "main": "app.js",
+    "authors": [
+        "ValHalla358 <vcs358@gmail.com>"
+    ],
+    "description": "",
+    "license": "MIT",
+    "homepage": "",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "angular": "^1.6.1",
+        "bootstrap": "^3.3.7",
+        "angular-toastr": "^2.1.1",
+        "openSans": "https://google-fonts.azurewebsites.net/googleFonts/openSans?family=Open+Sans",
+        "bowlbyOneSC": "https://google-fonts.azurewebsites.net/googleFonts/bowlbyOneSc?family=Bowlby+One+SC",
+        "ubuntu": "https://google-fonts.azurewebsites.net/googleFonts/ubuntu?family=Ubuntu",
+        "oswald": "https://google-fonts.azurewebsites.net/googleFonts/oswald?family=Oswald",
+        "raleway": "https://google-fonts.azurewebsites.net/googleFonts/raleway?family=Raleway",
+        "lobster": "https://google-fonts.azurewebsites.net/googleFonts/lobster?family=Lobster",
+        "pacifico": "https://google-fonts.azurewebsites.net/googleFonts/pacifico?family=Pacifico",
+        "josefinSans": "https://google-fonts.azurewebsites.net/googleFonts/josefinSans?family=Josefin+Sans",
+        "amaticSC": "https://google-fonts.azurewebsites.net/googleFonts/amaticSc?family=Amatic+SC",
+        "alegreya": "https://google-fonts.azurewebsites.net/googleFonts/alegreya?family=Alegreya",
+        "lato": "https://google-fonts.azurewebsites.net/googleFonts/lato?family=Lato"
+    },
+    "overrides": {
+        "bootstrap": {
+            "main": [
+                "dist/css/bootstrap.css"
+            ]
+        }
     }
-  }
 }

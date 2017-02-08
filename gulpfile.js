@@ -18,7 +18,7 @@ gulp.task('watch', function() {
     gulp.watch(htmlSources, ['html']);
 });
 
-var paths = ['./bower_components/', './app/*.js', './app/**/*.css'];
+var paths = ['./bower_components/', './app/*.js', './app/**/*.css', './node_modules/angular-ui-router/release/angular-ui-router.js'];
 
 
 gulp.task('injectables', function() {

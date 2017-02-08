@@ -1,11 +1,79 @@
-body {
-    background-image: url('../../images/orange_sky.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-bottom: 50%;
+.panel-body {
+    min-height: 180px;
 }
 
-h1 {
-    color: #fff;
+#imagePanel {
+    min-height: 400px;
+}
+
+#boxes {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#title,
+#civicTitle {
+    text-align: center;
+    font-family: Pacifico, sans-sarif;
+}
+
+#searchInput {
+    text-align: center;
+}
+
+#image {
+    text-align: center;
+}
+
+#civicDiv {
+    background-image: : url("/images/3946_capitol_hill.jpg");
+    background-size: cover;
+    background-color: transparent;
+}
+
+.container {
+    font-family: Open Sans, sans-sarif;
+}
+
+.panel-default >.panel-heading,
+.panel-footer {
+    background-color: rgba(29, 161, 242, .6);
+}
+
+#twitterIcon {
+    border-radius: 3px;
+    margin-right: 40px;
+    margin-left: 5px;
+    text-align: left;
+}
+
+#animalImage {
+    min-height: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+a {
+    font-family: Open Sans, sans-sarif;
+    color: rgba(29, 161, 242);
+    font-size: 2em;
+}
+
+#panelTitle {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#civicPostition {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#panelHead {
+    min-height: 112px;
+}
+
+#repPanel {
+    font-family: Raleway, sans-serif;
 }
